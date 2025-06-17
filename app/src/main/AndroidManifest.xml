@@ -11,7 +11,6 @@
         android:theme="@style/Theme.Lab_1_notes"
         >
 
-        <!-- Главное активити -->
         <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,7 +19,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Второе активити (редактирование заметки) -->
         <activity android:name=".NoteActivity" />
 
     </application>
