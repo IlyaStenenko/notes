@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF8E1"> <!-- светло-бежевый -->
+    android:background="#FFF8E1">
 
     <ListView
         android:id="@+id/listView"
@@ -15,7 +15,6 @@
         android:dividerHeight="12dp"
         android:padding="8dp" />
 
-    <!-- Круглая кнопка с плюсом -->
     <ImageButton
         android:id="@+id/addButton"
         android:layout_width="64dp"
